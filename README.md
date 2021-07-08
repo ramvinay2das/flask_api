@@ -36,7 +36,7 @@ print(r.text)
 ```
 ## If you want to implement basic auth on your api endpoint then you can see auth_run.py
 * It uses flask-httpauth
-* you can request the endpoint as shown in below code snippet
+> I have used dict to store username and password, and accessing that dict to authenticate user in verify_password, you can also use DB, you can request the endpoint as shown in below code snippet
 ```python
 import requests
 api_url = "http://127.0.0.1:5000/private"
